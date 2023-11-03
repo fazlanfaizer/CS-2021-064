@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+nav{
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+}
+h1{
+    font-size: xxx-large;
+    font-style: initial;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 70%;
+}
+li:hover{
+    color: black;
+}
+li{
+    cursor: pointer;
+}
+input{
+    width: 60%;
+    padding: 15px;
+}
+.searchbar{
+    padding: 25px;
+    text-align: center;
+}
+h2{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+
+}
+.box{
+    border-color: blueviolet;
+    border-width: 5px;
+    border-style:double;
+    display: inline-block;
+    width: 20%;
+}
+.products{
+    text-align: center;
+    margin: 50px;
+}
+.box:hover{
+    background-color: rgb(181, 129, 230);
+    color: white;
+    margin: 5px;
+}
+.cart{
+    background-color: bisque;
+    color: black;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    padding-bottom: 50px;
+}
+ol{
+    margin: 20px;
+    cursor: pointer;
+}
+button{
+    background-color: yellowgreen;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
